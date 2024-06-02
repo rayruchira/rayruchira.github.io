@@ -24,19 +24,19 @@
                 <br>
                 <nameunder>(she/her)</nameunder>
               </p>
-              <p>I am a second-year master's student in the Department of Computer Science at UT Austin advised by <a href="https://vilab.epfl.ch/zamir/">Dr. Amir Zamir</a> and <a href="philkr.net">Dr. Philipp Krähenbühl</a> where I am working on controlled data generation. I am also a member of the <a href="https://robin-lab.cs.utexas.edu/">Robot Interactive Intelligence Lab</a>, where I am researching the social effects of household robots as a part of the UT Austin Good Systems.
+              <p>I am a second-year master's student in the Department of Computer Science at UT Austin advised by <a href="https://vilab.epfl.ch/zamir/">Dr. Amir Zamir</a> and <a href="philkr.net">Dr. Philipp Krähenbühl</a> where I am working on controlled data generation. I am also a member of the <a href="https://robin-lab.cs.utexas.edu/">Robot Interactive Intelligence Lab</a>, where I am researching the motivation behind the desire for robotic automation of household tasks and its social effects as a part of the UT Austin Good Systems.
               </p>
 <!--               <p>
                 I am working on active audio exploration in of multi-category objects, advised by <a href="https://ravika.github.io/index.html">Prof. Ravi Kiran Sarvadevabhatla</a>.
               </p> -->
               
               <p>
-                Previously, as a Samsung PRISM Student Researcher, I have worked on encoder-decoder models for audio anti-spoofing. <!--under the guidance of <a href="https://www.linkedin.com/in/sourabhshivtiwari/">Sourabh Tiwari</a> -->I have also worked on mathematical equation recognition (as a MITACS Globalink Intern), under the supervision of <a href="https://www.macewan.ca/academics/academic-departments/computer-science/our-people/profile/?profileid=davisj80">Dr. Jeffrey Davis</a>, 
+                Previously, as at Samsung, I worked on encoder-decoder models for audio anti-spoofing. <!--under the guidance of <a href="https://www.linkedin.com/in/sourabhshivtiwari/">Sourabh Tiwari</a> -->I have also worked on mathematical equation recognition (as a MITACS Globalink Intern), 
                 and on autoencoder models for recommender systems, under the supervision of <a href= "https://sites.google.com/site/patrabidyutkr">Dr. Bidyut Kumar Patra</a>.
               </p>
               
-              <p>
-                <b>Click <a href="experience.html">here</a> to know more!</b>
+              <p style="font-size: 1.35em; ">
+                <b>Click <a href="experience.html" style="font-size: 1em; ">here</a> to know more!</b>
               </p>
               <p style="text-align:center">
                 <a href="mailto:ruchiraray@utexas.com">Email</a> &nbsp/&nbsp
@@ -100,29 +100,58 @@
         <tr>
         <td style="padding:20px;width:100%;vertical-align:middle">
           <heading>Publications & Posters</heading>
+          <p>* = Equal Contribution</p>
         </td>
       </tr>
     </tbody></table>
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+
           <tr onmouseout="qai_stop()" onmouseover="qai_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='qai'><img class="two" src='images/worldmap.png'></div>
-                <img width="160" height="160"  src='images/QAI.png'>
+                <div class="two" id='qai'><img class="two" src='images/diff-dataset-pull.jpg'></div>
+                <img width="160" height="160"  src='images/diff-dataset-pull.jpg'>
               </div>
-              <script type="text/javascript">
-                function qai_start() {
-                  document.getElementById('qai').style.opacity = "1";
-                }
-
-                function qai_stop() {
-                  document.getElementById('qai').style.opacity = "0";
-                }
-                antispoof_stop()
-              </script>
             </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2303.00510">
+                <papertitle>Controlled Training Data Generation with Diffusion Models</papertitle>
+              </a>
+              <br>
+              Teresa Yeo*, Andrei Atanov*, Harold Benoit<sup>†</sup>, Aleksandr Alekseev<sup>†</sup>, <strong>Ruchira Ray</strong>, Pooya Esmaeil Akhoondi, Amir Zamir
+<!--               
+              <br>
+              <em>Course Project: CS395T/EE381V: Spoken Language Technologies</em>  -->
+              <br>
+  
+              <p>Method to control text-to-image generation system using guided adversarial prompts for effective training data generation.</p>
+              
+            </td>
+          </tr>
+
+          <script type="text/javascript">
+            function qai_start() {
+              document.getElementById('qai').style.opacity = "1";
+            }
+          
+            function qai_stop() {
+              document.getElementById('qai').style.opacity = "0";
+            }
+            qai_stop();
+          </script>
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id="qai">
+                  <img class="two" src="images/worldmap.png" style="opacity: 0; transition: opacity 0.3s;">
+                </div>
+                <img width="160" height="160" src="images/QAI.png" onmouseover="qai_start()" onmouseout="qai_stop()">
+              </div>
+            </td>
+
+            
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="https://dl.acm.org/doi/abs/10.1145/3593013.3594134">
                 <papertitle>Queer In AI: A Case Study in Community-Led Participatory AI</papertitle>
@@ -223,6 +252,48 @@
               
               <p></p>
               <p>Deep Belief Network and Variational Autoencoder hybrid architecture for collaborative filtering</p>
+            </td>
+          </tr>
+
+          <tr onmouseout="qai_stop()" onmouseover="qai_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='qai'><img class="two" src='images/sp3rl.jpg'></div>
+                <img width="160" height="160"  src='images/sp3rl.jpg'>
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2303.00510">
+                <papertitle>A Comparison of Speech Data Augmentation Methods Using S3PRL Toolkit</papertitle>
+              </a>
+              <br>
+              Mina Huh*, <strong>Ruchira Ray*</strong>, Corey Karnei*
+<!--               
+              <br>
+              <em>Course Project: CS395T/EE381V: Spoken Language Technologies</em>  -->
+              <br>
+  
+              <p>Summarizing and comparing different data augmentation strategies using S3PRL toolkits in speech-processing tasks.</p>
+              
+            </td>
+          </tr>
+
+          <tr onmouseout="qai_stop()" onmouseover="qai_start()">
+            <td style="padding:20px;width:25%;align-items: center; justify-content: center;">
+              <div class="one">
+                <div class="two" id='qai'><img style="width: 160; height: auto;" class="two" src='images/Lin_mitigate.jpg'></div>
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2405.05418">
+                <papertitle>Mitigating Exaggerated Safety in Large Language Models</papertitle>
+              </a>
+              <br>
+              Ruchi Bhalani*, <strong>Ruchira Ray*</strong>
+              <br>
+              <p></p>
+              <p> Multiple prompting strategies to jailbreak LLMs' decision-making processes and help them balance refusing unsafe prompts without decreasing helpfulness.</p>
+              
             </td>
           </tr>
 
